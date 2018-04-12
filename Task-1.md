@@ -13,21 +13,30 @@
 *	可利用 git commit 簡介說明更新的主要目的。
 
 
-|B	|A	|B	|
-|------:|:-----:|:-----	|	
-|A	|B	|A	|
-|B	|A	|B	|
-|X	|X	|X	|
+|B  	|A	    |B	
+|------:|:-----:|:-----
+|A	    |B	    |A	
+|B  	|A	    |B	
+|X	    |X  	|X	
 
 
 ______________________________________________________________________
 
 
 Task-1.1 《請「試圖」解釋為什麼在那個時間點你沒有辦法發 PR 給我》
-----------------------------------------------------------------
+--------------------------------------------------------
 
 
-根據 Task_1.md 步驟，第一個步驟是 fork [FlowTraining](https://github.com/hybrid274/FlowTraining)，第二個步驟用 git clone 下載自己 github fork 出來的 FlowTraining。
-第一個步驟我就做錯了，因為我沒有先 fork [FlowTraining](https://github.com/hybrid274/FlowTraining)，而是直接 git clone [FlowTraining](https://github.com/hybrid274/FlowTraining)。
-上傳時我改了 origin master，因為無法上傳給 [FlowTraining](https://github.com/hybrid274/FlowTraining)，所以我直接改成我的 FlowTraining。
-所以當要 pull request 時才沒有其他人的 fork。
+我先在自己的 github 上 Create repository 而 repository name 是 FlowTraining
+，之後要發 Pull requests 才找不到 MontyPan/FlowTraining。
+
+因為是 Create repository，所以 fork 的人與 [FlowTraining](origin_url) 完全不一樣，才無法發給 MontyPan/FlowTraining。
+
+假如 MontyPan fork 我自己 Create repository，就可以發 Pull requests 給 MontyPan。
+
+最後發現 fork 有與自己相同的 repository name，會導致 fork 到自己 github 上的 repository name會最後加上 -1，此為實際測試的[結果](img)。
+
+
+
+[img]:https://i.imgur.com/jwpBxj4.jpg
+[origin_url]:https://github.com/DontCareAbout/FlowTraining
