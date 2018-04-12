@@ -14,7 +14,6 @@
 
 
 
-
 測試 table 左右置中功能。
 
 |BBBBBBB|AAAAAAA|BBBBBB	
