@@ -32,13 +32,9 @@ Task-1.1 《請「試圖」解釋為什麼在那個時間點你沒有辦法發 PR 給我》
 我先在自己的 github 上 Create repository 而 repository name 是 FlowTraining
 ，之後要發 Pull requests 才找不到 MontyPan/FlowTraining。
 
-因為是 Create repository，所以 fork 的人與 [FlowTraining](origin_url) 完全不一樣，才無法發給 MontyPan/FlowTraining。
+因為是 Create repository，所以 fork 的人與 [FlowTraining](https://github.com/DontCareAbout/FlowTraining) 完全不一樣，才無法發給 MontyPan/FlowTraining。
 
 假如 MontyPan fork 我自己 Create repository，就可以發 Pull requests 給 MontyPan。
 
-最後發現 fork 有與自己相同的 repository name，會導致 fork 到自己 github 上的 repository name會最後加上 -1，此為實際測試的[結果](img)。
+最後發現 fork 有與自己相同的 repository name，會導致 fork 到自己 github 上的 repository name會最後加上 -1，此為實際測試的[結果](https://i.imgur.com/jwpBxj4.jpg)。
 
-
-
-[img]:https://i.imgur.com/jwpBxj4.jpg
-[origin_url]:https://github.com/DontCareAbout/FlowTraining
