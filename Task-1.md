@@ -13,7 +13,11 @@
 *	可利用 git commit 簡介說明更新的主要目的。
 
 
-|B  	|A	    |B	
+
+
+測試 table 左右置中功能。
+
+|BBBBBBB|AAAAAAA|BBBBBB	
 |------:|:-----:|:-----
 |A	    |B	    |A	
 |B  	|A	    |B	
