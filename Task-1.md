@@ -33,9 +33,9 @@ Task-1.1 《請「試圖」解釋為什麼在那個時間點你沒有辦法發 PR 給我》
 [listfork_ref]:https://help.github.com/articles/listing-the-forks-of-a-repository/
 
 
-我先在 GitHub create repo 名稱是 FlowTraining，因為是 create 是沒有來源，[forks][listfork_ref] 清單也沒有 MontyPan/FlowTraining，
+我先在 GitHub create repo 名稱是 FlowTraining，因為 create 是沒有來源，[fork 清單][listfork_ref]也沒有 MontyPan/FlowTraining，
 
-而 MontyPan/FlowTraining 來源是 forked from DontCareAbout/FlowTraining，而不是我的 FlowTraining，所以才無法發 Pull requests 給 MontyPan。
+而 MontyPan/FlowTraining 來源是 DontCareAbout/FlowTraining，而不是我的 FlowTraining，所以才無法發 Pull requests 給 MontyPan。
 
 假如 MontyPan fork 我的 FlowTraining 後，再更新我的 FlowTraining 就可以發 Pull requests 給 MontyPan。
 
